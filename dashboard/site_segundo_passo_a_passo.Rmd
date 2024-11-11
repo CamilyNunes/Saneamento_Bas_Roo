@@ -1,0 +1,22 @@
+---
+title: "Meio Ambiente"
+author: "Camily Nunes dos Santos"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    theme: readable
+    css: "estilos.css"
+runtime: shiny
+---
+  
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Introdução
+Algum conteúdo introdutório sobre o meio ambiente.
+
+### Seção 1
+Descrição detalhada da primeira seção.
+
+### Seção 2
+Descrição detalhada da segunda seção.
