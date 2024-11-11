@@ -1,12 +1,17 @@
-name: "Meio_Ambiente"
-title: "My Website"
-description: |
-  My Website
-output_dir: "_site"
+name: "Saneamento Básico em Rondonópolis"
+output_dir: "docs"
 navbar:
-  right:
+  title: "Saneamento Básico"
+  left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-output: distill::distill_article
+    - text: "Relatório ONU"
+      href: San_Bas_SNIS_ONU.html
+output: 
+  flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    theme: "flatly"
+    highlight: "github"
+    background: "#F2F2F2"
+    css: style.css

@@ -11,3 +11,6 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+BuildType: Website
+WebsitePath: C:/Users/camir/OneDrive - Universidade Federal de Rondonópolis/Saneamento_Bas_Roo
